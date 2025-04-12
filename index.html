@@ -1,92 +1,80 @@
-<!-- index.html --><!DOCTYPE html><html lang="fa">
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="فروشگاه لیوان‌های یکبار مصرف گیل کاپ">
-  <meta name="keywords" content="لیوان، یکبار مصرف، گیل کاپ، فروشگاه">
-  <meta name="author" content="guilcup.co">
-  <title>گیل کاپ | فروشگاه لیوان</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>گیل کاپ | محصولات</title>
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+      font-size: 24px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .product {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 10px;
+      transition: all 0.3s;
+    }
+    .product:hover {
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+      font-size: 16px;
+    }
+    .product p {
+      margin: 0;
+      color: green;
+      font-weight: bold;
+    }
+    .product a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>به گیل کاپ خوش آمدید</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">خانه</a></li>
-        <li><a href="about.html">درباره ما</a></li>
-        <li><a href="products.html">محصولات</a></li>
-        <li><a href="gallery.html">گالری کارگاه</a></li>
-        <li><a href="contact.html">تماس و همکاری</a></li>
-      </ul>
-    </nav>
-  </header>  <main>
-    <section class="product-grid">
-      <!-- نمایش تمام محصولات -->
-      <!-- برای مثال فقط لیوان ۲۲۰ اضافه شده بود، حالا بقیه هم اضافه می‌شن -->
-      <!-- برای هر محصول صفحه مجزا هم ساخته میشه -->
-      <!-- محصولات -->
-      <!-- فقط یه نمونه می‌گذارم بقیه هم به همین سبک هستن --><!-- لیوان ۲۲۰ -->
-  <a href="product-pages/220.html">
-    <div class="product-card">
-      <img src="img/220.jpg" alt="لیوان ۲۲۰">
-      <h3>لیوان ۲۲۰ تک جداره</h3>
-      <p>۷۹۰ تومان</p>
-    </div>
-  </a>
+  <h1>به گیل کاپ خوش آمدید</h1>
 
-  <!-- لیوان ۱۸۰ -->
-  <a href="product-pages/180.html">
-    <div class="product-card">
-      <img src="img/180.jpg" alt="لیوان ۱۸۰">
-      <h3>لیوان ۱۸۰ تک جداره</h3>
-      <p>تماس بگیرید</p>
-    </div>
-  </a>
-
-  <!-- لیوان ۱۲۰ -->
-  <a href="product-pages/120.html">
-    <div class="product-card">
-      <img src="img/120.jpg" alt="لیوان ۱۲۰">
-      <h3>لیوان ۱۲۰ تک جداره</h3>
-      <p>تماس بگیرید</p>
-    </div>
-  </a>
-
-  <!-- و ادامه بقیه محصولات مشابه -->
-</section>
-
-  </main>  <footer>
-    <p>ارتباط با ما: @guilcup.co</p>
-  </footer>
+  <div class="products">
+    <div class="product"><a href="product-1.html"><h3>لیوان ۲۲۰ تک جداره</h3><p>۷۹۰ تومان</p></a></div>
+    <div class="product"><a href="product-2.html"><h3>لیوان ۱۸۰ تک جداره</h3><p>۷۵۰ تومان</p></a></div>
+    <div class="product"><a href="product-3.html"><h3>لیوان ۱۲۰ تک جداره</h3><p>۷۰۰ تومان</p></a></div>
+    <div class="product"><a href="product-4.html"><h3>لیوان ۱۱۰ تک جداره</h3><p>۶۵۰ تومان</p></a></div>
+    <div class="product"><a href="product-5.html"><h3>لیوان ۹۰ تک جداره</h3><p>۶۰۰ تومان</p></a></div>
+    <div class="product"><a href="product-6.html"><h3>لیوان ۳۶۰ تک جداره</h3><p>۹۰۰ تومان</p></a></div>
+    <div class="product"><a href="product-7.html"><h3>لیوان ۲۲۰ تک جداره کرافت</h3><p>۸۲۰ تومان</p></a></div>
+    <div class="product"><a href="product-8.html"><h3>لیوان ۱۲۰ تک جداره کرافت</h3><p>۷۵۰ تومان</p></a></div>
+    <div class="product"><a href="product-9.html"><h3>لیوان ۱۱۰ تک جداره کرافت</h3><p>۷۰۰ تومان</p></a></div>
+    <div class="product"><a href="product-10.html"><h3>لیوان ۹۰ تک جداره کرافت</h3><p>۶۸۰ تومان</p></a></div>
+    <div class="product"><a href="product-11.html"><h3>لیوان ۳۶۰ تک جداره کرافت</h3><p>۹۲۰ تومان</p></a></div>
+    <div class="product"><a href="product-12.html"><h3>لیوان ۳۶۰ دو جداره کرکره</h3><p>۱۱۰۰ تومان</p></a></div>
+    <div class="product"><a href="product-13.html"><h3>لیوان ۲۲۰ دو جداره کرکره</h3><p>۹۸۰ تومان</p></a></div>
+    <div class="product"><a href="product-14.html"><h3>لیوان ۱۱۰ دو جداره کرکره</h3><p>۸۰۰ تومان</p></a></div>
+    <div class="product"><a href="product-15.html"><h3>لیوان ۱۰۰ دو جداره کرکره</h3><p>۷۵۰ تومان</p></a></div>
+    <div class="product"><a href="product-16.html"><h3>لیوان ۳۶۰ فول کرافت</h3><p>۱۲۰۰ تومان</p></a></div>
+    <div class="product"><a href="product-17.html"><h3>لیوان ۲۲۰ فول کرافت</h3><p>۱۰۰۰ تومان</p></a></div>
+    <div class="product"><a href="product-18.html"><h3>لیوان ۱۱۰ فول کرافت</h3><p>۸۲۰ تومان</p></a></div>
+    <div class="product"><a href="product-19.html"><h3>لیوان ۳۶۰ سه جداره کرافت</h3><p>۱۳۰۰ تومان</p></a></div>
+    <div class="product"><a href="product-20.html"><h3>لیوان ۲۲۰ سه جداره کرافت</h3><p>۱۱۰۰ تومان</p></a></div>
+    <div class="product"><a href="product-21.html"><h3>لیوان ۱۱۰ سه جداره کرافت</h3><p>۹۰۰ تومان</p></a></div>
+  </div>
 </body>
-</html><!-- فایل‌های product-pages --><!-- فقط نمونه‌سازی می‌کنم، بقیه به همین صورت هستن --><!-- product-pages/180.html --><!DOCTYPE html><html lang="fa">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="لیوان ۱۸۰ تک جداره - گیل کاپ">
-  <title>لیوان ۱۸۰ تک جداره</title>
-  <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-  <header>
-    <h1>لیوان ۱۸۰ تک جداره</h1>
-    <nav>
-      <ul>
-        <li><a href="../index.html">خانه</a></li>
-        <li><a href="../products.html">محصولات</a></li>
-      </ul>
-    </nav>
-  </header>  <main>
-    <div class="product-card">
-      <img src="../img/180.jpg" alt="لیوان ۱۸۰">
-      <p>لیوان مناسب نوشیدنی‌های گرم. کیفیت عالی با ضخامت مناسب.</p>
-      <p>قیمت: تماس بگیرید</p>
-      <p><strong>برای سفارش فوری:</strong></p>
-      <p>تماس یا پیام به: 09913332778 یا 09900131700</p>
-    </div>
-  </main>  <footer>
-    <p>@guilcup.co</p>
-  </footer>
-</body>
-</html><!-- (همین ساختار برای بقیه محصولات ادامه پیدا می‌کنه، فقط img و متن تغییر می‌کنن) -->
+</html>
