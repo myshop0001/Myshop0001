@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>فروشگاه گیل کاپ | لیوان کاغذی</title>
+  <meta name="description" content="فروش مستقیم انواع لیوان کاغذی با قیمت عمده. سفارش سریع و ارسال به سراسر ایران.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>به گیل کاپ خوش آمدید</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">خانه</a></li>
+        <li><a href="about.html">درباره ما</a></li>
+        <li><a href="gallery.html">گالری کارگاه</a></li>
+        <li><a href="free-shipping.html">شهرهای ارسال رایگان</a></li>
+        <li><a href="custom-orders.html">سفارش اختصاصی</a></li>
+        <li><a href="cooperation.html">شرایط همکاری</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="products">
+      <h2>محصولات</h2>
+      <div class="product-grid">
+        <!-- محصولات -->
+        <a href="product-220.html" class="product-card">
+          <img src="img/220.jpg" alt="محصول ۲۲۰">
+          <h3>لیوان ۲۲۰ تک جداره</h3>
+          <p>۷۹۰ تومان</p>
+        </a>
+        <a href="product-180.html" class="product-card">
+          <img src="img/180.jpg" alt="محصول ۱۸۰">
+          <h3>لیوان ۱۸۰ تک جداره</h3>
+          <p>۷۵۰ تومان</p>
+        </a>
+        <!-- سایر محصولات به همین ترتیب -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>ارتباط با ما در اینستاگرام: <a href="https://instagram.com/guilcup.co">@guilcup.co</a></p>
+  </footer>
+</body>
+</html>
