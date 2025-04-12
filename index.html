@@ -1,23 +1,39 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<!DOCTYPE html><html lang="fa">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>گیل کاپ | محصولات</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="فروشگاه گیل کاپ | انواع لیوان کاغذی یکبار مصرف">
+  <meta name="keywords" content="لیوان کاغذی، لیوان یکبار مصرف، گیل کاپ، لیوان دوجداره، لیوان کرافت">
+  <meta name="author" content="GuilCup">
+  <title>فروشگاه گیل کاپ</title>
   <style>
     body {
-      font-family: Tahoma, sans-serif;
-      background-color: #ffffff;
-      color: #333;
-      text-align: center;
+      font-family: sans-serif;
+      direction: rtl;
+      background: #fefefe;
       margin: 0;
       padding: 0;
     }
-    h1 {
-      background-color: #f0f0f0;
-      margin: 0;
+    header {
+      background: #2d2d2d;
+      color: white;
       padding: 20px;
-      font-size: 24px;
+      text-align: center;
+      font-size: 22px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #444;
+    }
+    nav a {
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    nav a:hover {
+      background: #666;
     }
     .products {
       display: grid;
@@ -26,55 +42,62 @@
       padding: 30px;
     }
     .product {
-      border: 1px solid #ddd;
-      border-radius: 8px;
+      border: 1px solid #ccc;
+      border-radius: 12px;
       padding: 10px;
-      transition: all 0.3s;
+      background: #fff;
+      text-align: center;
+      box-shadow: 0 0 6px rgba(0,0,0,0.1);
     }
-    .product:hover {
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    .product img {
+      width: 100%;
+      height: 140px;
+      object-fit: contain;
     }
-    .product h3 {
-      margin: 10px 0 5px;
-      font-size: 16px;
-    }
-    .product p {
-      margin: 0;
-      color: green;
-      font-weight: bold;
-    }
-    .product a {
-      text-decoration: none;
-      color: inherit;
-      display: block;
+    footer {
+      background: #2d2d2d;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
-  <h1>به گیل کاپ خوش آمدید</h1>
-
-  <div class="products">
-    <div class="product"><a href="product-1.html"><h3>لیوان ۲۲۰ تک جداره</h3><p>۷۹۰ تومان</p></a></div>
-    <div class="product"><a href="product-2.html"><h3>لیوان ۱۸۰ تک جداره</h3><p>۷۵۰ تومان</p></a></div>
-    <div class="product"><a href="product-3.html"><h3>لیوان ۱۲۰ تک جداره</h3><p>۷۰۰ تومان</p></a></div>
-    <div class="product"><a href="product-4.html"><h3>لیوان ۱۱۰ تک جداره</h3><p>۶۵۰ تومان</p></a></div>
-    <div class="product"><a href="product-5.html"><h3>لیوان ۹۰ تک جداره</h3><p>۶۰۰ تومان</p></a></div>
-    <div class="product"><a href="product-6.html"><h3>لیوان ۳۶۰ تک جداره</h3><p>۹۰۰ تومان</p></a></div>
-    <div class="product"><a href="product-7.html"><h3>لیوان ۲۲۰ تک جداره کرافت</h3><p>۸۲۰ تومان</p></a></div>
-    <div class="product"><a href="product-8.html"><h3>لیوان ۱۲۰ تک جداره کرافت</h3><p>۷۵۰ تومان</p></a></div>
-    <div class="product"><a href="product-9.html"><h3>لیوان ۱۱۰ تک جداره کرافت</h3><p>۷۰۰ تومان</p></a></div>
-    <div class="product"><a href="product-10.html"><h3>لیوان ۹۰ تک جداره کرافت</h3><p>۶۸۰ تومان</p></a></div>
-    <div class="product"><a href="product-11.html"><h3>لیوان ۳۶۰ تک جداره کرافت</h3><p>۹۲۰ تومان</p></a></div>
-    <div class="product"><a href="product-12.html"><h3>لیوان ۳۶۰ دو جداره کرکره</h3><p>۱۱۰۰ تومان</p></a></div>
-    <div class="product"><a href="product-13.html"><h3>لیوان ۲۲۰ دو جداره کرکره</h3><p>۹۸۰ تومان</p></a></div>
-    <div class="product"><a href="product-14.html"><h3>لیوان ۱۱۰ دو جداره کرکره</h3><p>۸۰۰ تومان</p></a></div>
-    <div class="product"><a href="product-15.html"><h3>لیوان ۱۰۰ دو جداره کرکره</h3><p>۷۵۰ تومان</p></a></div>
-    <div class="product"><a href="product-16.html"><h3>لیوان ۳۶۰ فول کرافت</h3><p>۱۲۰۰ تومان</p></a></div>
-    <div class="product"><a href="product-17.html"><h3>لیوان ۲۲۰ فول کرافت</h3><p>۱۰۰۰ تومان</p></a></div>
-    <div class="product"><a href="product-18.html"><h3>لیوان ۱۱۰ فول کرافت</h3><p>۸۲۰ تومان</p></a></div>
-    <div class="product"><a href="product-19.html"><h3>لیوان ۳۶۰ سه جداره کرافت</h3><p>۱۳۰۰ تومان</p></a></div>
-    <div class="product"><a href="product-20.html"><h3>لیوان ۲۲۰ سه جداره کرافت</h3><p>۱۱۰۰ تومان</p></a></div>
-    <div class="product"><a href="product-21.html"><h3>لیوان ۱۱۰ سه جداره کرافت</h3><p>۹۰۰ تومان</p></a></div>
-  </div>
+  <header>به گیل کاپ خوش آمدید</header>
+  <nav>
+    <a href="index.html">صفحه اصلی</a>
+    <a href="about.html">درباره ما</a>
+    <a href="products.html">محصولات</a>
+    <a href="gallery.html">گالری عکس های کارگاه</a>
+    <a href="cities.html">شهرهای ارسال رایگان</a>
+    <a href="orders.html">سفارشات اختصاصی</a>
+    <a href="cooperation.html">شرایط همکاری</a>
+  </nav>  <div class="products">
+    <div class="product">
+      <a href="products/220.html">
+        <img src="images/220.jpg" alt="لیوان ۲۲۰">
+        <h4>لیوان ۲۲۰ تک جداره</h4>
+        <p>۷۹۰ تومان</p>
+      </a>
+    </div>
+    <div class="product">
+      <a href="products/180.html">
+        <img src="images/placeholder.jpg" alt="لیوان ۱۸۰">
+        <h4>لیوان ۱۸۰ تک جداره</h4>
+        <p>...</p>
+      </a>
+    </div>
+    <div class="product">
+      <a href="products/120.html">
+        <img src="images/placeholder.jpg" alt="لیوان ۱۲۰">
+        <h4>لیوان ۱۲۰ تک جداره</h4>
+        <p>...</p>
+      </a>
+    </div>
+    <!-- همین ساختار برای سایر محصولات ادامه پیدا کند -->
+  </div>  <footer>
+    ارتباط با ما: <a href="https://www.instagram.com/guilcup.co" style="color:#fff">@guilcup.co</a>
+  </footer>
 </body>
 </html>
